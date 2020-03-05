@@ -59,11 +59,4 @@
   </repositories>
     </profile>
   </profiles>
-   <servers>
-  <server>
-    <id>evertrue</id>
-    <username>admin</username>
-    <password>Honey1395@</password>
-  </server>
-</servers>
 </project>
