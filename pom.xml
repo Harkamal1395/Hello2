@@ -38,4 +38,32 @@
             </plugin>
         </plugins>
     </build>
+	<profiles>
+    <profile>
+      <id>Repository Proxy</id>
+      <activation>
+      <activeByDefault>true</activeByDefault>
+      </activation>
+      <repositories>
+    <repository>
+      <id>evertrue</id>
+      <name>Evertrue Repository</name>
+      <url>http://localhost:8080/repository/evertrue/</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+    </profile>
+  </profiles>
+   <servers>
+  <server>
+    <id>evertrue</id>
+    <username>admin</username>
+    <password>Honey1395@</password>
+  </server>
+</servers>
 </project>
